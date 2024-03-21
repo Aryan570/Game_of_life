@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+.font{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+.m{
+    margin: auto;
+}
+.grid-set{
+    display: grid;
+    background-color: aqua;
+    min-height: 200px;
+}
+.h_w{
+    height: 10px;
+    width: 10px;
+    color: white;
+    background-color: black;
+    z-index: 10;
+}
+.h_w_c{
+    height: 10px;
+    width: 10px;
+    /* color: aquamarine; */
+    background-color: white;
+}
+.flex-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beautify{
+    border: 2px;
+    border-color: grey;
+}
+.right{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
