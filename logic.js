@@ -11,10 +11,10 @@ for (let i = 0; i < 100; i++) {
     let node = "<div>";
     for (let j = 0; j <50; j++) {
         if(!bigArray[i][j]){
-            node += `<div class="h_w"></div>`;
+            node += `<div class="h_w mar"></div>`;
         }
         if(bigArray[i][j]){
-            node += `<div class="h_w_c"></div>`;
+            node += `<div class="h_w_c mar"></div>`;
         }
     }
     node += "</div>";
@@ -26,10 +26,10 @@ function rerender(){
         let node = "<div>";
         for (let j = 0; j <50; j++) {
             if(!bigArray[i][j]){
-                node += `<div class="h_w"></div>`;
+                node += `<div class="h_w mar"></div>`;
             }
             if(bigArray[i][j]){
-                node += `<div class="h_w_c"></div>`;
+                node += `<div class="h_w_c mar"></div>`;
             }
         }
         node += "</div>";
@@ -61,4 +61,4 @@ setInterval(() => {
         }
     }
     rerender();
-}, 250);
+}, 100);
